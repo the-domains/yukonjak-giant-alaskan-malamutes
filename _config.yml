@@ -4,12 +4,12 @@ collections:
       number: 15
       paginate: true
       navigable: true
-    permalink:
-      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
+    permalink:
+      path: '/:title/'
 color:
   saturation: 0.8201647
   brandStrength: 0.2564
@@ -22,5 +22,5 @@ color:
     - '#004E98'
   lightness: 0.8607053
 typography_spectrum: 0.4513492
-layout_spectrum: 0.8827993
+layout_spectrum: 1
 name: 'Yukonjak giant Alaskan malamutes '
