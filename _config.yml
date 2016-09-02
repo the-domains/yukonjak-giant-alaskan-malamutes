@@ -1,8 +1,17 @@
-layout_spectrum: 0.1382144
-typography_spectrum: 0.4513492
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
   saturation: 0.8201647
-  lightness: 0.8607053
   brandStrength: 0.2564
   rhythmicContrast: 0.006383904
   brandColors:
@@ -11,4 +20,7 @@ color:
     - '#C0C0C0'
     - '#3A6EA5'
     - '#004E98'
+  lightness: 0.8607053
+typography_spectrum: 0.4513492
+layout_spectrum: 0.8827993
 name: 'Yukonjak giant Alaskan malamutes '
